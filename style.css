@@ -3,7 +3,6 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    
 }
 
 body {
@@ -11,27 +10,33 @@ body {
 }
 
 nav li {
-    display: inline;
-    padding: 10px 10px;
-    text-align: center;
-    background-color: rgba(0,0,0, 0.9);
-    border-radius: 15px;
-    color: #f4f4f6ff;
-    box-shadow: 0px 10px black;
-    border: 1px solid black;
+    display: inline-block;
 }
 
 nav ul {
     margin: 20px 20px 20px auto;
     text-align: right;
 }
-
-nav li:hover {
+.button {
+    padding: 10px 10px;
+    text-align: center;
     background-color: rgba(0,0,0, 0.9);
-    box-shadow: 0px 0px;
+    border-radius: 15px;
+    color: #f4f4f6ff;
+    box-shadow: 0px 15px black;
+    border: 1px solid rgba(0,0,0, 0.9);
+    min-width: 57px;
+}
+
+.button:hover {
+    background-color: rgba(0,0,0, 0.9);
+    box-shadow: 0px 5px black;
     position: relative;
     top: 10px;
 }
+
+
+
 
 .header {
     margin: 0 auto;
@@ -43,7 +48,7 @@ nav li:hover {
 }
 
 .layouts-content {
-    padding: 130px 50px;
+    padding: 130px 100px;
     margin: 0 auto 0 0;
     background-color: #f4f4f6ff;
     width: 70%;
@@ -62,7 +67,6 @@ h1 {
     font-size: 48px;
 }
 
-
 .layouts-content h2 {
     color: black;
     background-color: #f4f4f6ff;
@@ -76,6 +80,23 @@ h1 {
 footer {
     background-color:#66666eff;
     color: #f4f4f6ff;
+    display: flex;
+    margin: 0 auto;
+}
+
+.footer-menu {
+    margin: 30px 50px;
+    flex-wrap: wrap;
+    flex: 1 300px;
+    text-align: justify;
+}
+
+.fonts-content {
+    padding: 130px 100px;
+    margin: 0 0 0 auto;
+    background-color: #f4f4f6ff;
+    width: 70%;
+    text-align: right;
 }
 
 /* COLORS
