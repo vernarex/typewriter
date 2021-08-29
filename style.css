@@ -35,9 +35,6 @@ nav ul {
     top: 10px;
 }
 
-
-
-
 .header {
     margin: 0 auto;
     text-align: center;
@@ -45,6 +42,10 @@ nav ul {
     background-color:#f4f4f6ff;
     color: black;
     width: 100%;
+}
+
+h1 {
+    font-size: 48px;
 }
 
 .layouts-content {
@@ -63,18 +64,12 @@ nav ul {
     top: 150px;
 }
 
-h1 {
-    font-size: 48px;
-}
-
-.layouts-content h2 {
-    color: black;
+.fonts-content {
+    padding: 130px 100px;
+    margin: 0 0 0 auto;
     background-color: #f4f4f6ff;
-}
-
-.layouts-content p {
-    color: black;
-    background-color: #f4f4f6ff;
+    width: 70%;
+    text-align: right;
 }
 
 footer {
@@ -89,14 +84,6 @@ footer {
     flex-wrap: wrap;
     flex: 1 300px;
     text-align: justify;
-}
-
-.fonts-content {
-    padding: 130px 100px;
-    margin: 0 0 0 auto;
-    background-color: #f4f4f6ff;
-    width: 70%;
-    text-align: right;
 }
 
 /* COLORS
